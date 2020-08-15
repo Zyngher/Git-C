@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;    
+}
+
+header {
+    height: 40px;
+    min-width: 700px;
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    border-top: 3px solid green;
+    box-shadow: 0 4px 20px -5px rgba(128, 128, 128, 0.568);
+}
+
+.left-section {
+    display: flex;
+    /* flex-direction: row; */
+}
+
+.left-section .logo {
+    position: relative;
+    width: 200px;
+    top: 10px;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.left-section nav {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+}
+
+.left-section nav a {
+    min-width: 50px;
+}
+
+.phone {
+    width: 200px;
+    text-align: right;
+}
+
+.phone::before {
+    width: 20px;
+    height: 20px;
+    content: "@";
+    margin-right: 5px;
+}
+
+section {
+    margin-top: 150px;
+    display: flex;
+    /* flex-direction: row; */
+    /* justify-content: space-around; */
+}
+
+  
+    /* fortam alinierea cu flex */
+
+
+    /* acelasi efect cu cod mai scurt: text-align: center; 
+    si profitam de comportamentul default al browserului */
+
+svg {
+    position: relative;
+    right: -50%;
+    
+
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.nav-bar{
+    padding: 10px;
+}
+.nav-bar:hover{
+    background-color: green;
+    color: white;
+}
