@@ -69,9 +69,7 @@ section {
 
 svg {
     position: relative;
-    right: -50%;
-    
-
+    /* right: -50%; */
     width: 50px;
     margin-bottom: 20px;
 }
@@ -90,3 +88,22 @@ h2 {
     background-color: green;
     color: white;
 }
+
+/* cristi */
+
+article {
+    width: 300px;
+    border: 2px solid #d7d7d7;
+    padding: 20px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+}
+
+section {
+    margin: auto;
+    width: 1000px;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-around;
+  }
